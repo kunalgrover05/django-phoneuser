@@ -1,5 +1,5 @@
 # django-phoneuser
-A Django app providing a Custom User model mapped to a user's phone number
+A Django app providing a Custom User model mapped to a user's phone number. The aim of this library is to handle the real world use-cases of quickly setting up phone number based registration/OTP authentication. Ideally changing Django's username field would have worked, but most of the libraries aren't compatible with that.
 
 ## Features
 * Custom user model with Phone number as username and supported authentication with One-Time passwords.
